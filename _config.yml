@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default"  # options: air, aqua, contrast, dark, dirt, ne
 # =============================================================================
 author:
   name: "Jack Dechow"
-  avatar: "/assets/images/headshot.jpg"  # add your photo here
+  avatar: "/assets/images/bio-photo.jpg"  # add your photo here
   bio: >
     Postdoctoral Researcher studying mountain snowmelt and hydrological modeling
     at the University of North Carolina, Chapel Hill.
@@ -43,15 +43,6 @@ author:
 # =============================================================================
 # NAVIGATION
 # =============================================================================
-navigation:
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "Resources"
-    url: /resources/
-  - title: "CV"
-    url: /cv/
 
 # =============================================================================
 # DEFAULTS (apply layouts automatically to page types)
