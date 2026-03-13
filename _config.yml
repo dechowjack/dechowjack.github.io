@@ -14,6 +14,14 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "default"  # options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # =============================================================================
+# COLLECTIONS
+# =============================================================================
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# =============================================================================
 # AUTHOR (populates the sidebar on inner pages)
 # =============================================================================
 author:
