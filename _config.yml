@@ -71,6 +71,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # =============================================================================
 # MISC
