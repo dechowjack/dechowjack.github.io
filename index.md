@@ -1,13 +1,11 @@
 ---
-title: "Home"
 layout: single
-
 permalink: /
 header:
   overlay_filter: 0.3
   overlay_image: /assets/images/yosemite_winter_nps.png
 excerpt: >
-    _Postdoctoral Researcher__ <br />
+    Postdoctoral Researcher <br />
     <small>Global Hydrology Lab</small> <br>
     <small>University of North Carolina, Chapel Hill</small> <br>
 author_profile: true
