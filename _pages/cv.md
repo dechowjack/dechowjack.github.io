@@ -1,6 +1,7 @@
 ---
 title: "CV"
 layout: single
+excerpt: ""
 author_profile: true
 permalink: /cv/
 ---

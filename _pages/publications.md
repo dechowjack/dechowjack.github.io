@@ -3,6 +3,7 @@ title: "Publications"
 layout: single
 permalink: /publications/
 author_profile: true
+excerpt: ""
 header:
   overlay_filter: 0.3
   overlay_image: /assets/images/yosemite_winter_nps.png

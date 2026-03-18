@@ -1,6 +1,7 @@
 ---
 title: "Research"
 layout: single
+excerpt: ""
 permalink: /research/
 author_profile: true
 header:

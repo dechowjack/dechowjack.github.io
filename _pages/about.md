@@ -1,6 +1,7 @@
 ---
 title: "About"
 layout: single
+excerpt: ""
 permalink: /about/
 author_profile: true
 ---

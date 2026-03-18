@@ -1,6 +1,7 @@
 ---
 title: "Resources"
 layout: single
+excerpt: ""
 permalink: /resources/
 author_profile: true
 header:
@@ -51,4 +52,3 @@ scripts, and documentation for getting started with HPC resources.
 - **Repository:** [github.com/dechowjack/ClusterComputingWorkshop](https://github.com/dechowjack/ClusterComputingWorkshop)
 
 ---
-
