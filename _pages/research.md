@@ -1,14 +1,15 @@
 ---
 title: "Research"
 layout: single
-author_profile: true
 permalink: /research/
 header:
   overlay_filter: 0.3
   overlay_image: /assets/images/yosemite_winter_nps.png
+author_profile: true
 ---
 
 <!-- TODO: Write a 2-3 sentence overview of your research program here -->
+
 My research aims to improve our understanding of mountain snowpack dynamics and develop
 better model representations of snow water resources in complex terrain. Currently, I am most interested in developing downscaling techniques for global SWE products.
 
