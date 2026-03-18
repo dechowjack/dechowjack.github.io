@@ -1,11 +1,19 @@
 ---
 title: "Resources"
 layout: single
-permalink: /resources/
+permalink: /
+author_profile: true
 header:
   overlay_filter: 0.3
   overlay_image: /assets/images/yosemite_winter_nps.png
-author_profile: true
+excerpt: >
+    Postdoctoral Researcher <br />
+    <small>Global Hydrology Lab</small> <br>
+    <small>University of North Carolina, Chapel Hill</small> <br>
+
+
+
+
 ---
 
 This page collects open-source tools, datasets, and teaching materials from my research.
