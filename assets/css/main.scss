@@ -1,0 +1,12 @@
+---
+---
+@charset "utf-8";
+
+@import "minimal-mistakes";
+
+.author__avatar img {
+  width: 190px !important;
+  height: 190px !important;
+  border-radius: 50% !important;
+  object-fit: cover;
+}
