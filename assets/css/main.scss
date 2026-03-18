@@ -5,8 +5,17 @@
 @import "minimal-mistakes";
 
 .author__avatar img {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 50% !important;
+  object-fit: cover;
+}
+
+.author__avatar {
   width: 190px !important;
   height: 190px !important;
   border-radius: 50% !important;
-  object-fit: cover;
+  overflow: hidden !important;
 }
