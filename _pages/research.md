@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: single
-permalink: /
+permalink: /research/
 author_profile: true
 header:
   overlay_filter: 0.3

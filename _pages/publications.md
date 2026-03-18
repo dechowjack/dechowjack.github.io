@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: single
-permalink: /
+permalink: /publications/
 author_profile: true
 header:
   overlay_filter: 0.3
