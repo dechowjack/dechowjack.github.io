@@ -3,6 +3,9 @@ title: "Research"
 layout: single
 author_profile: true
 permalink: /research/
+header:
+  overlay_filter: 0.3
+  overlay_image: /assets/images/yosemite_winter_nps.png
 ---
 
 <!-- TODO: Write a 2-3 sentence overview of your research program here -->
@@ -28,6 +31,13 @@ I was involved in the development and testing of the Blender algorithm during my
 ---
 
 # Research Highlights
+
+## CoReSSD: A 1 km North American SWE Dataset
+
+![CoReSSD SWE across the western United States, March 15 2016](/assets/images/CSD_AGU_WY16_final.png)
+The map above shows CoReSSD SWE on March 15, 2016 across the western United States. The Sierra Nevada and Cascades are clearly visible along the left; the Rockies appear on the right. SWE values exceeding 1 m (green to yellow) are concentrated along high-elevation ridgelines, while lower-elevation areas show the thin snowpack typical of that water year. The magenta outline marks the Rio Grande National Forest, the primary validation basin for this work.
+
+Initial validation against the Western U.S. Snow Reanalysis (WUS; Fang et al., 2022) shows CoReSSD substantially outperforms both the NoahMP prior (R = 0.71, RMSE = 83.1 mm) and ERA5-Land (R = 0.63, RMSE = 90.9 mm), achieving R = 0.89 and RMSE = 56.2 mm in the test basin. Full validation across the 20-year record is ongoing and will be submitted to *Earth System Science Data*.
 
 ## Interdisciplinary applications of snow modeling
 
