@@ -1,8 +1,11 @@
 ---
 title: "Publications"
 layout: single
-author_profile: true
 permalink: /publications/
+header:
+  overlay_filter: 0.3
+  overlay_image: /assets/images/yosemite_winter_nps.png
+author_profile: true
 ---
 
 ## Publications in Review

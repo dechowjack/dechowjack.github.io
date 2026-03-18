@@ -1,8 +1,11 @@
 ---
 title: "Resources"
 layout: single
-author_profile: true
 permalink: /resources/
+header:
+  overlay_filter: 0.3
+  overlay_image: /assets/images/yosemite_winter_nps.png
+author_profile: true
 ---
 
 This page collects open-source tools, datasets, and teaching materials from my research.
