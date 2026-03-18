@@ -29,6 +29,7 @@ Some of my specific research interests include:
 # Research Projects
 ## Modeling SWE at continental scales
 **[2022-2026] | NASA Grant #80NSSC22K0585**
+
 The **Co**ld **Re**gions **S**nowfall and **S**nowpack **D**ataset (CoReSSD) is a 1 km snowfall and snow water equivalent dataset. CoReSSD covers the entirety of North American above 30°N for water years 2001-2021. This dataset was produced with funding from NASA Grant #80NSSC22K0585. CoReSSD relies on the Blender algorithm (Dechow et al., 2026, Water Resources Research). Blender is a non-linear optimization technique to recompute the modeled mass and energy balance of the snowpack, constrained by remotely sensed snow cover fraction. Blender requires a prior estimate, i.e. initial conditions, of the snowpack mass and energy balance. The original Blender algorithm paper can be found below.
 
 I was involved in the development and testing of the Blender algorithm during my PhD at Ohio State University. Following my PhD, I continued work on the project during my postdoc at UNC. At UNC, I helped with development of the updated Blender algorithm to be more efficient running over large domains. I also developed the precipitation scaling technique used to improve spatial variability in the prior dataset. Finally, I oversaw the production of the entirety of the dataset, and am currently working through the initial validation of results.
