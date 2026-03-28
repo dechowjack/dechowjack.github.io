@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /
+title: "Mountain Snow Hydrology"
 classes: wide home-academic
 author_profile: false
 excerpt: >
