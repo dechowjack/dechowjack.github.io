@@ -46,7 +46,7 @@ header:
           Ultimately, I am interested in how snowpack dynamics respond to climate variability and how we
           can better represent these processes to support water resource management. I am currently a
           <strong>postdoctoral researcher</strong> in the Pavelsky Global Hydrology Lab at
-          <a href="https://www.unc.edu/">the University of North Carolina at Chapel Hill</a>.
+          <a href="https://uncglobalhydrology.org/">the University of North Carolina at Chapel Hill</a>.
         </p>
         <div class="home-intro__links">
           <a href="/research/" class="btn btn--primary">Research Overview</a>
