@@ -1,27 +1,43 @@
-# Minimal Mistakes remote theme starter
+# Jack Dechow Personal Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal academic website for Jack Dechow, built with Jekyll and the Minimal Mistakes remote theme, and deployed via GitHub Pages at [dechowjack.github.io](https://dechowjack.github.io).
 
-Contains basic configuration to get you a site with:
+## Structure
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- `index.md`: homepage content and hero configuration
+- `_pages/`: site pages such as research, publications, resources, and CV
+- `_data/navigation.yml`: top-level navigation
+- `assets/css/main.scss`: site-level style overrides
+- `assets/images/`: profile photos, page imagery, and research figures
+- `assets/files/`: downloadable files such as the CV PDF
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Local Development
 
----
+This site uses Bundler-managed Jekyll dependencies.
 
-## Troubleshooting
+1. Install Ruby `3.0+` and Bundler.
+2. Install dependencies:
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+```bash
+bundle install
+```
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+3. Serve locally:
+
+```bash
+bundle exec jekyll serve
+```
+
+4. Open the local URL printed by Jekyll, usually `http://127.0.0.1:4000`.
+
+## Notes
+
+- GitHub Pages builds the site from this repository using the gems declared in `Gemfile` and `_config.yml`.
+- The current repo does not use blog posts or Atom feeds; it is maintained as a static research/personal site.
+- Large visual assets should be resized or compressed before committing so page loads remain fast.
+
+## Maintenance Checklist
+
+- Keep page `excerpt` values populated so metadata is useful in search/social previews.
+- Prefer putting reusable styling in `assets/css/main.scss` instead of inline HTML `<style>` blocks.
+- Verify external links periodically, especially profile links and DOI targets.

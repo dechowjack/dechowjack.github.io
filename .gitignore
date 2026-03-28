@@ -1,4 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
+.DS_Store
+.playwright-cli/
+_site/
+.jekyll-cache/

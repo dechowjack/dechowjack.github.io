@@ -1,12 +1,16 @@
 ---
 title: "Resources"
 layout: single
-excerpt: ""
+classes: wide academic-page resources-page
+excerpt: "Datasets, software, and teaching materials connected to my research program."
 permalink: /resources/
 author_profile: true
 header:
-  overlay_filter: 0.3
+  overlay_filter: 0.48
   overlay_image: /assets/images/yosemite_winter_nps.png
+  overlay_excerpt: >
+    Open datasets, software, and workshop materials that support ongoing research
+    and reproducible computational workflows.
 
 
 
@@ -38,7 +42,7 @@ comply with the remotely sensed melt-out date. Blender is also the core method b
 - **Repository:** [github.com/dechowjack/Blender](https://github.com/dechowjack/Blender)
 - **Reference:** **Dechow, J.**, Durand, M., Wrzesien, M., Lundquist, J., Rittger, K., Dozier, J., Pavelsky, T., Margulis, S. (in review). 
 Merging Regional Climate Models and Remote Sensing Observations to Better Estimate Mountain Snow Water Equivalent.
-*Water Resources Research*. Preprint: doi:10.22541/essoar.175915579.90649700/v1
+*Water Resources Research*. Preprint: [doi:10.22541/essoar.175915579.90649700/v1](https://doi.org/10.22541/essoar.175915579.90649700/v1)
 
 ---
 ## Teaching & Workshops

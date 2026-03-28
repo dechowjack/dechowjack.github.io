@@ -6,6 +6,7 @@ name: "Jack Dechow"
 description: "Postdoctoral Researcher in Mountain Hydrology"
 url: "https://dechowjack.github.io"
 baseurl: ""
+repository: "dechowjack/dechowjack.github.io"
 
 # =============================================================================
 # THEME
@@ -66,10 +67,15 @@ defaults:
 # PLUGINS (required for GitHub Pages)
 # =============================================================================
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
   - jekyll-include-cache
+
+atom_feed:
+  hide: true
+
+feed:
+  disable_in_development: true
 
 # =============================================================================
 # MISC
