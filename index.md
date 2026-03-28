@@ -27,65 +27,66 @@ header:
 
 ---
 
-<section class="home-intro">
-  <div class="home-intro__media">
-    <img src="/assets/images/bio-photo.jpg" alt="Portrait of Jack Dechow" class="home-intro__photo" />
+<section class="home-sticky-layout">
+  <div class="home-sticky-layout__intro">
+    <section class="home-intro">
+      <div class="home-intro__media">
+        <img src="/assets/images/bio-photo.jpg" alt="Portrait of Jack Dechow" class="home-intro__photo" />
+      </div>
+      <div class="home-intro__content">
+        <p class="home-intro__eyebrow">Academic Profile</p>
+        <h2>Snow hydrology and geospatial data science for mountain water resources.</h2>
+        <p>
+          I am a snow hydrologist and geospatial data scientist interested in modeling mountain snow
+          accumulation and melt at large scales. My work incorporates satellite remote sensing, numerical
+          weather prediction, and non-linear optimization techniques to create post-processing models to
+          improve our ability to estimate <strong>snow water equivalent</strong> at high resolution over large domains.
+        </p>
+        <p>
+          Ultimately, I am interested in how snowpack dynamics respond to climate variability and how we
+          can better represent these processes to support water resource management. I am currently a
+          <strong>postdoctoral researcher</strong> in the Pavelsky Global Hydrology Lab at
+          <a href="https://www.unc.edu/">the University of North Carolina at Chapel Hill</a>.
+        </p>
+        <div class="home-intro__links">
+          <a href="/research/" class="btn btn--primary">Research Overview</a>
+          <a href="/resources/" class="btn btn--inverse">Open Resources</a>
+        </div>
+      </div>
+    </section>
   </div>
-  <div class="home-intro__content">
-    <p class="home-intro__eyebrow">Academic Profile</p>
-    <h2>Snow hydrology and geospatial data science for mountain water resources.</h2>
-    <p>
-      I am a snow hydrologist and geospatial data scientist interested in modeling mountain snow
-      accumulation and melt at large scales. My work incorporates satellite remote sensing, numerical
-      weather prediction, and non-linear optimization techniques to create post-processing models to
-      improve our ability to estimate <strong>snow water equivalent</strong> at high resolution over large domains.
-    </p>
-    <p>
-      Ultimately, I am interested in how snowpack dynamics respond to climate variability and how we
-      can better represent these processes to support water resource management. I am currently a
-      <strong>postdoctoral researcher</strong> in the Pavelsky Global Hydrology Lab at
-      <a href="https://www.unc.edu/">the University of North Carolina at Chapel Hill</a>.
-    </p>
-    <div class="home-intro__links">
-      <a href="/research/" class="btn btn--primary">Research Overview</a>
-      <a href="/resources/" class="btn btn--inverse">Open Resources</a>
+
+  <div class="home-sticky-layout__cards">
+    <article class="home-card">
+      <p class="home-card__label">Current Focus</p>
+      <h3>Continental-scale SWE estimation</h3>
+      <p>
+        Developing downscaling and post-processing approaches that improve snow water equivalent
+        estimates over large domains and in complex terrain.
+      </p>
+    </article>
+    <article class="home-card">
+      <p class="home-card__label">Methods</p>
+      <h3>Remote sensing, modeling, and optimization</h3>
+      <p>
+        Combining satellite observations, numerical weather prediction, and optimization techniques
+        to improve large-scale snow estimation workflows.
+      </p>
+    </article>
+    <article class="home-card">
+      <p class="home-card__label">Audience</p>
+      <h3>Open work for researchers and collaborators</h3>
+      <p>
+        This site collects research themes, publications, datasets, and teaching materials connected
+        to my current work in mountain hydrology and cryosphere science.
+      </p>
+    </article>
+
+    <div class="section-heading home-sticky-layout__section-heading">
+      <p class="section-heading__eyebrow">Research Themes</p>
+      <h2>Three threads that organize the work</h2>
     </div>
-  </div>
-</section>
 
-<section class="home-grid">
-  <article class="home-card">
-    <p class="home-card__label">Current Focus</p>
-    <h3>Continental-scale SWE estimation</h3>
-    <p>
-      Developing downscaling and post-processing approaches that improve snow water equivalent
-      estimates over large domains and in complex terrain.
-    </p>
-  </article>
-  <article class="home-card">
-    <p class="home-card__label">Methods</p>
-    <h3>Remote sensing, modeling, and optimization</h3>
-    <p>
-      Combining satellite observations, numerical weather prediction, and optimization techniques
-      to improve large-scale snow estimation workflows.
-    </p>
-  </article>
-  <article class="home-card">
-    <p class="home-card__label">Audience</p>
-    <h3>Open work for researchers and collaborators</h3>
-    <p>
-      This site collects research themes, publications, datasets, and teaching materials connected
-      to my current work in mountain hydrology and cryosphere science.
-    </p>
-  </article>
-</section>
-
-<section class="home-section">
-  <div class="section-heading">
-    <p class="section-heading__eyebrow">Research Themes</p>
-    <h2>Three threads that organize the work</h2>
-  </div>
-  <div class="theme-columns">
     <article class="theme-card">
       <h3>Snow water equivalent in complex terrain</h3>
       <p>
